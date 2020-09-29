@@ -70,6 +70,7 @@ const merge = (start,mid,end) =>{
 
 
 const mergesort = (start,end) => {
+    // console.log("hi")
     if(start < end)
     {
         var mid=Math.floor((start + end) / 2);
@@ -84,4 +85,5 @@ const mergesort = (start,end) => {
 
 const sort = ()=>{
     mergesort(0,9);
+    c_delay=0;
 }
